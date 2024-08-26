@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 
 
@@ -18,6 +19,9 @@ public class Main extends Application {
 //			BorderPane root = new BorderPane();
 			Parent root = FXMLLoader.load(getClass().getResource("/Scene.fxml"));
 			Scene scene = new Scene(root);
+			Image icon = new Image("sonic.png");
+			primaryStage.getIcons().add(icon);
+			primaryStage.setTitle("RETRO MUSIC PLAYER");
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.setResizable(false);
