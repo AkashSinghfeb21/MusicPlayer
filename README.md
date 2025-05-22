@@ -15,5 +15,5 @@ This video is about **how the Music Player works**.
 
 ### 📽️ Watch the video to see the Music Player in action and understand how each function works.
 
-
+ 
 https://github.com/user-attachments/assets/2e093bfc-f1bb-43fa-9df8-c071940edb21
